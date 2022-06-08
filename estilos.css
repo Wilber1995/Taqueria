@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Lobster&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;1,700&family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Lobster&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+
+   
+   #menu-area.cus.nav{
+       transition: backgraund 0.6s;
+   }
+   .enlaces  ul li a{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 25px;
+   color: blue;
+
+   }
+   .btnSuscribete{
+       width: 130px;
+       height: 47px;
+       background: red;
+       color: white;
+       border-radius: 10px;
+       border: none;
+       font-style: normal;
+       font-weight: bold;
+   }
+   .active{
+       color:blue !important;
+   }
+   .wilberAltura{
+    height: 100vh;
+}
+#wilberHeader{
+    background-image: url('/img/baner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(/img/baner3.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   position: relative;
+
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+#cajacabecera{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+} 
+#cabecera{ 
+    
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+   align-items: center;
+   margin: auto;
+}
+#logo{
+    width: 100%; 
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 40px;
+    position: relative;
+   
+}
+
+
+.menu{
+    
+    width: 100%;
+  
+    
+   
+} 
+
+#btn-menu {
+    color: black;
+    display: none;
+}
+#mmovil{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    text-align: right;
+    position: relative;
+} 
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li{
+    
+    float: left;
+    list-style: none;
+    padding: 35px;
+    position: relative;
+    
+
+}
+.menu ul li a{
+
+    text-decoration: none;
+    color:white;
+    position: relative;
+    display: block;
+    line-height: 24px;
+    padding: 0 30px;
+    size: 10px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.menu a:hover{
+    color: red;
+    border-bottom:  1px solid red;         
+}
+.container img{
+   margin-top: 250px;
+   height: 600px;
+   width: 1348px;
+   position: relative;
+   background-size: cover;
+     margin-top: 0%;
+    }
+    .container p{
+       
+       font-size: 50px;
+       position: absolute;
+       top: 45%;
+       left:40%;
+       font-family: lobster;
+       justify-content: center; 
+    }
+
+
+
+
+    .conocenos li{
+    
+        float: left;
+        list-style: none;
+        padding: 135px;
+        position: relative;
+        size: 45px;
+         justify-content: flex-end;
+        
+    }
+
+    .conocenos  li a{
+
+        text-decoration: none;
+        color:white;
+        position: relative;
+        display: block;
+        line-height: 24px;
+        padding:30px;
+        size: 15px;
+        background-color:blue;
+        border-radius: 25px;
+        
+    }
+    .conocenos a:hover{
+        color: red;
+        border-bottom:  1px solid red;
+    }
+
+    .nombre label input{
+        text-align: center;
+        margin-left: auto;
+
+
+    }
+  
+     
+      
+      
+      .orden {
+          padding: 10px;
+          margin: auto;
+      }
+
+      div.galeria{
+       margin: 40px  110px;
+       float:left;
+       width:400x
+      } 
+      div.galeria img{
+          width: 200px;
+          margin-top: 50px;
+      }
+      div.pie{
+          text-align: center;
+          text-shadow: 2pc ,2px 5px;
+          padding: 17px;
+          background-color:blue;
+          color: aliceblue;
+      }
+
+
+      div.galeria2{
+        margin: 40px  110px;
+        float:left;
+        width:400x
+       } 
+       div.galeria2 img{
+           width: 200px;
+           margin-top: 50px;
+       }
+       div.pie2{
+           text-align: center;
+           text-shadow: 2pc ,2px 5px;
+           padding: 17px;
+           background-color:blue;
+           color: aliceblue;
+       }
+
+       div.galeria3{
+        margin: 40px  110px;
+        float:left;
+        width:400x
+       } 
+       div.galeria3 img{
+           width: 200px;
+           margin-top: 50px;
+       }
+       div.pie3{
+           text-align: center;
+           text-shadow: 2pc ,2px 5px;
+           padding: 17px;
+           background-color:blue;
+           color: aliceblue;
+       }
+       .titulo h1{
+           color: blue;
+           margin-top: 150px;
+           text-decoration: none;
+           border-radius: 15px;
+       }
+     
+/*MENU EN RESPONSIVE DISPOSITIVOS 1081px*/
+@media (max-width: 1081px)
+{
+   #cabecera{
+        justify-content:space-between ;
+    
+} 
+#logo{
+    width:10%;
+    display: block;
+    padding-left: 10x;
+    
+}  
+.menu{
+    position: absolute; 
+    top: 100%;
+    transform: translateX(-100%);
+    transition: all 0.35;
+
+}  
+.menu ul{
+    flex-direction: column;
+    background-color: cadetblue;
+    
+    
+}
+.menu{
+
+    flex-direction: column;
+    background: cadetblue;
+}
+#mmovil{
+    display: block;
+    padding-right: 20px;
+  
+}
+
+
+    
+   #log{
+       font-size: 50px;
+   } 
+
+.pie2{
+   
+    font-size:50px;
+   
+}
+ 
+
